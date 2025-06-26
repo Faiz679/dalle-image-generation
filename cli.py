@@ -62,8 +62,7 @@ def main():
         )
         # Output must be a proper JSON list of image URLs
         urls = [img["url"] for img in response["data"]]
-        for url in urls:
-            print(url)  
+        print(json.dumps(urls)) 
     except Exception as e:
         print(f"Error generating image: {e}", file=sys.stderr)
         sys.exit(1)
