@@ -1,5 +1,5 @@
 name: image-generation
-credential: github.com/gptscript-ai/credential as sys.openai with OPENAI_API_KEY as env 
+credential: github.com/Faiz679/credential as sys.openai with OPENAI_API_KEY as env 
 description: Generates images based on the specified parameters and returns the URLs of the generated images.
 args: size: (optional) The size of the image to generate, format WxH (e.g. 1024x1024). Defaults to 1024x1024.
 args: quality: (optional) The quality of the generated image. Allowed values are "standard" or "hd". Default is "standard".
